@@ -19,7 +19,7 @@ plt.title("Price of Prizza against Size")
 plt.xlabel("Price")
 plt.ylabel("Size")
 # plotting the graph
-plt.plot(X, Y, 'k.')
+plt.plot(X, Y, 'k.', color="red")
 # setting the axis for graph
 plt.axis([0, 25, 0, 25])
 # setting grid for graph
